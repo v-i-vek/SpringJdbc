@@ -25,5 +25,8 @@
 	<property name="dataSource" ref="ds"></property>
 	</bean>
 
+<bean class="com.jdbc.dao.StudentDaoImp" name="studentDao">
+<property name="jdbcTemp" ref="temp"/>
+</bean>
 
 </beans>
