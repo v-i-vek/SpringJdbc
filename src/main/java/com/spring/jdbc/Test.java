@@ -30,9 +30,9 @@ public class Test {
 //		s.setName("babu mosay");
 //		s.setId(33);
 		
-		s.setCity("Rajkot");
-		s.setName("sudhir");
-		s.setId(33);
+//		s.setCity("Rajkot");
+//		s.setName("sudhir");
+//		s.setId(33);
 //		
 //		int insert = sd.insert(s);
 //		System.out.println(insert);
@@ -42,6 +42,8 @@ public class Test {
 		
 //		int delete = sd.delete(s);
 //		System.out.println(delete);
+		Student su = sd.getStudent(1);
+		System.out.println(su);
 	}
 
 }
